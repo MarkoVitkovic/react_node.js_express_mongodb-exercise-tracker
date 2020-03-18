@@ -5,9 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 npm start</br>
-npm test
-npm run build
-npm run eject
+npm test</br>
+npm run build</br>
+npm run eject</br>
 npm run build
 
 ## Learn More
