@@ -1,5 +1,5 @@
-# Hotel Resort
-> Project made with react. Hotel resort app. 
+# Exercise Tracker
+> MERN stack project. Exercise tracker for you. 
 
 ## Table of contents
 * [General info](#general-info)
@@ -12,18 +12,18 @@
 * [Contact](#contact)
 
 ## General info
-Site made with react, node.js and CSS3. On front page you will find three types of rooms, go and check, and when you open one of them, 
-you will see info about that room, also in navbar you have "rooms" option, there are all rooms from hotel, you can search rooms by 
-filters, see image below.
+MERN stack project that track zour or anyone else workout, you can add or delete or even edit your workout, but first you need to add yourself in database, so you always be able to see your exercise. Database is online at mongoDB. Frontend is write in react. 
 
 ## Screenshots
-![](https://github.com/MarkoVitkovic/react-hotelResort/blob/master/rooms.png)
+![]()
 
 ## Technologies
 * [React](https://reactjs.org/docs/getting-started.html) - version 16.13.1
 * [Node.js](https://nodejs.org/en/docs/) - version 13
 * [CSS](https://devdocs.io/css/) - version 3
 * [React-dom](https://github.com/facebook/react) - version 16.13.1
+* [Express](https://expressjs.com/en/api.html) - version 4.x
+* [mongoDB](https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_footprint_row_search_brand_atlas_desktop&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&gclid=EAIaIQobChMIubLRzaa06AIVArDtCh2MgwEKEAAYASAAEgLyjvD_BwE)
 
 
 ## Setup
@@ -58,7 +58,7 @@ Code:</br>
  ` User.find()`</br>
   `  .then(users => res.json(users))`</br>
    ` .catch(err => res.status(400).json('Error: ' + err));`</br>
-`});`</br></br>
+`});`</br>
 `router.route('/add').post((req, res) => {`</br>
  ` const username = req.body.username;`</br>
 `const newUser = new User({username});`</br>
