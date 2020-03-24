@@ -51,24 +51,22 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Code Examples
 Code:</br>
-`class FeaturedRooms extends Component {`</br>
- ` static contextType = RoomContext;`</br>
-`render(){`</br>
- ` let {loading, featuredRooms : rooms} = this.context;`</br>
- `rooms = rooms.map(room => {`</br>
-  ` return <Room key={room.id} room={room}/>`</br>
- `})`</br>
-  `return (`</br>
-   ` <section className="featured-rooms">`</br>
-    `  <Title title="featured rooms"/>`</br>
-     ` <div className="featured-rooms-center">`</br>
-      `  {loading?<Loading/>:rooms}`</br>
-      `</div>`</br>
-     `</section>`</br>
-  `);`</br>
-`}`</br>
-`}`</br>
-`export default FeaturedRooms;`</br>
+  
+`const router = require('express').Router();`</br>
+`let User = require('../models/user.model');`</br>
+`router.route('/').get((req, res) => {`</br>
+ ` User.find()`</br>
+  `  .then(users => res.json(users))`</br>
+   ` .catch(err => res.status(400).json('Error: ' + err));`</br>
+`});`</br></br>
+`router.route('/add').post((req, res) => {`</br>
+ ` const username = req.body.username;`</br>
+`const newUser = new User({username});`</br>
+`newUser.save()`</br>
+ `   .then(() => res.json('User added!'))`</br>
+  `  .catch(err => res.status(400).json('Error: ' + err));`</br>
+`});`</br>
+`module.exports = router;`</br>
 
 ## Features
 List of features ready and TODOs for future development
