@@ -12,7 +12,7 @@
 * [Contact](#contact)
 
 ## General info
-MERN stack project that track zour or anyone else workout, you can add or delete or even edit your workout, but first you need to add yourself in database, so you always be able to see your exercise. Database is online at mongoDB. Frontend is write in react. 
+MERN stack project that track your or anyone else workout, you can add or delete or even edit your workout, but first you need to add yourself in database, so you always be able to see your exercise. Database is online at mongoDB. Frontend is write in react. Feel free to clone or download.
 
 ## Screenshots
 ![]()
@@ -83,6 +83,7 @@ To-do list:
 Project is: _finished_
 
 ## Inspiration
+As I want to learn full stack, I thint this is awesome project for me. 
 Credits: [freeCodeCamp.org](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
 
 ## Contact
