@@ -15,7 +15,7 @@
 MERN stack project that track your or anyone else workout, you can add or delete or even edit your workout, but first you need to add yourself in database, so you always be able to see your exercise. Database is online at mongoDB. Frontend is write in react. Feel free to clone or download.
 
 ## Screenshots
-![]()
+![](https://github.com/MarkoVitkovic/react_node.js_express_mongodb-exercise-tracker/blob/master/tracker.png)
 
 ## Technologies
 * [React](https://reactjs.org/docs/getting-started.html) - version 16.13.1
